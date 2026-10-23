@@ -20,16 +20,6 @@ module.exports = {
 
     MONGODB_URI: process.env.MONGODB_URI || 'mongodb+srv://imajithhasindu2_db_user:DhkJNVjDvLdc0vzO@cluster0.yl6bp78.mongodb.net/?appName=Cluster0',
 
-    // AI credentials/settings are kept in this config file. Replace the placeholder.
-    AI_API_KEY: process.env.AI_API_KEY || 'sk_rW7ihxG7I8168TS0gDCTEG4igziGohzV',
-    AI_ENABLED: true,
-    AI_AUTO_REPLY: true,
-    AI_IMAGE_ENABLED: true,
-    AI_MEMORY_ENABLED: true,
-    AI_PRIVATE_ONLY: true,
-    AI_TEXT_MODEL: process.env.POLLINATIONS_TEXT_MODEL || 'openai/gpt-5.4-nano',
-    AI_IMAGE_MODEL: process.env.POLLINATIONS_IMAGE_MODEL || 'black-forest-labs/flux.1-schnell',
-
 
     // ============================================================
     // 2. BOT INFORMATION
